@@ -1,0 +1,152 @@
+* {
+  font-family: "Poppins";
+}
+
+a:visited,
+a:link {
+  text-decoration: none;
+}
+
+a:hover {
+  color: #ede7f1;
+  text-decoration: underline;
+}
+
+body {
+  background-color: WHITE;
+  margin-top: 3rem;
+  margin-bottom: 2rem;
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
+nav img {
+  width: 6rem;
+}
+
+nav {
+  display: flex;
+  align-items: center;
+  margin-top: 4rem;
+  margin-bottom: 5rem;
+  justify-content: space-between;
+  padding-left: 20%;
+  padding-right: 20%;
+}
+
+nav a {
+  color: #26877f;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+main article {
+  background-color: white;
+  color: #26877f;
+}
+
+nav {
+  font-size: 2rem;
+}
+
+h1 {
+  font-size: 3rem;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+#header {
+  width: 100%;
+  margin-bottom: 1rem;
+}
+
+main section {
+  text-align: center;
+}
+
+#about {
+  width: 50%;
+  margin: auto;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  font-size: 110%;
+}
+
+p,
+h1 {
+  margin-left: 2rem;
+  margin-right: 2rem;
+  margin-bottom: 2rem;
+  margin-top: 2rem;
+}
+
+button {
+  background-color: #26877f;
+  color: white;
+  border: none;
+  padding: 0.5rem 1rem;
+}
+
+button:visited {
+  text-decoration: none;
+}
+
+button:hover {
+  text-decoration: underline;
+}
+
+#page a {
+  align-self: center;
+}
+
+#port,
+#bo {
+  margin-top: 5rem;
+  margin-bottom: 5rem;
+  display: flex;
+  font-size: 110%;
+  padding: 5rem 10rem;
+}
+
+#port img,
+#bo img {
+  width: 70%;
+}
+
+#portfolio {
+  display: flex;
+  margin: 0;
+  width: 80%;
+  text-align: left;
+  align-self: center;
+  flex-direction: column;
+  margin-right: 5rem;
+  row-gap: 2rem;
+}
+
+#book {
+  display: flex;
+  margin: 0;
+  width: 80%;
+  text-align: right;
+  align-self: center;
+  flex-direction: column;
+  margin-left: 5rem;
+  row-gap: 2rem;
+}
+
+footer {
+  display: flex;
+  margin-top: 2rem;
+  padding-top: 1rem;
+  padding-left: 2rem;
+  padding-right: 2rem;
+  padding-bottom: 1rem;
+  background-color: #26877f;
+  color: #ede7f1;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.footer2 {
+  text-align: right;
+}
